@@ -1,0 +1,219 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 139px;
+    display: flex;
+}   
+.navbar{
+    background-color: #d49d3f;
+    width: 100%;
+    height: 45.5px;  
+
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 157px;
+}
+.navbar li a{
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left: 15px;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    height: 100%;
+    background-color: #0c83ff;
+}
+.menu{
+    height: 100%;
+    font-size: 15px;
+    padding: 12px 15px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.HOME{
+    background-color: #0c83ff;
+}
+
+.banner{
+    background-color:white;
+    height: 600px;
+    width: 100%;
+}
+.footer{
+    background-color: #0d3f5c;
+    height: 551.8px;
+    width: 100%;
+    display: flex;
+    padding-top: 53px;  
+}
+.f-heading{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: 'Lato';
+    font-weight: normal;
+}
+hr{
+    color: white;
+    border-width: 1px;
+}
+.bottom{
+    background-color: white;
+    height: 64px;
+    width: 100%;
+}
+.final{
+    width: 90%;
+    display: flex;
+    margin-left: 10%;
+}
+.quick{
+    flex-basis: 30%;
+    background-color:#0d3f5c;
+    margin-right: 19px;
+}
+.boby{
+    flex-basis: 30%;
+    background-color:#0d3f5c ;
+}
+.social{
+    flex-basis: 30%;
+    background-color:#0d3f5c;
+    margin-left: 19px;
+}
+.fb{
+    width: 38px;
+    height: 38px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.insta{
+    width: 38px;
+    height: 38px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.ytube{
+    width: 38px;
+    height: 38px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.quick li,.boby li{
+    color:#cdcdcd;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.quick li,.boby li{
+    list-style: none;   
+    margin-top: 17px;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+}
+.header-left img{
+    margin-left: 185px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+.half{
+    width: 37%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+}
+.half img{
+    margin-left: 122px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.call p{
+    margin-left: 10px;
+    margin-top: 35px;
+    cursor: pointer;
+    color:black;
+    font-size: 18px;
+    list-style: none;
+    font-weight:normal;
+    font-family: 'Lato';
+}
+.phone-number{
+    margin-top: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;  
+}
+.phone-number a{
+    text-decoration: none;
+    color: #0c83ff;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Lato';
+}
+.phone-number a:hover{
+    opacity: .6;
+}
+.size img{
+    margin-left:50px;
+    margin-top: 30px;
+}
+.send-mail p{
+    margin-left: 112px;
+    margin-top:-50px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Lato';
+    cursor: pointer;
+}
+.link-mail a{
+    margin-top: 5px;
+    margin-left: 114px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #0c83ff;
+    text-decoration: none;
+    font-family: 'Lato';
+}
+.link-mail a:hover{
+    opacity: .6;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.bottom p{
+   color: #7a7a7a;
+}
+.bottom a{
+    color: black;
+}
+.bottom a:hover{
+    color: #0c83ff;
+}
